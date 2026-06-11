@@ -1,6 +1,6 @@
-.cafe-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
+.cafe-text {
+  text-align: center;
+  margin: 0;
+  width: 1000px;
+  padding: 50px;
 }
