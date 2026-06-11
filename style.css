@@ -1,4 +1,6 @@
-html, body{
-    text-align: left;
-    vertical-align: top;
+.cafe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
