@@ -1,10 +1,16 @@
-.cafe-text {
-  text-align: center;
-  margin: 0;
-  width: 1000px;
-  padding: 50px;
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
 }
 
-.Imgs {
-    
+.header-text {
+  margin: 0;
+  text-align: center;
 }
+
+.header-icon {
+  height: 60px;
+  width: auto;
