@@ -19,5 +19,10 @@
 }
 
 .Drinks {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
