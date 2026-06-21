@@ -1,7 +1,7 @@
 console.log("Hello world!")
 
 function getListFormInput(){
-    const DRINKS_FIELD = (document.getElementById("drinksField").value);
+    let userDrinks = Number(document.getElementById("drinksField").value);
 
     OUTPUT.innerHTML += "<p>You have ordered + i + <p>"
 }
