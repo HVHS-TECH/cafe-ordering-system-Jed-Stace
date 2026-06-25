@@ -24,8 +24,7 @@
 }
 
 .Drinks, .Food {
-  width: 50%;
-  padding: 10px;
+  width: 48%;
   box-sizing: border-box;
 }
 
