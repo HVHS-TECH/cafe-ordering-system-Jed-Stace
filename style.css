@@ -28,3 +28,10 @@
   padding: 10px;
   box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;                     
+    padding: 20px;
+}
