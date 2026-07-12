@@ -6,102 +6,84 @@
 <link rel="icon" type="image/png" href="Images & icons/cafe sign.png">
 </head>
 <body>
-<div class="cafe-text">
-
-</div>
-<div class="Imgs">
-</div>
 
 <div class="header-container">
      <img src="Images & icons/coffee cup.png" alt="coffee" class="header-icon" style="width: 200px; height: 200px;">
-
         <h1 class="header-text">Home Café</h1>
-
      <img src="Images & icons/Plate of food.png" alt="food" class="header-icon" style="width: 200px; height: 200px;">
 </div>
 
-<div class="Forms">
-
-    <div class="drinksForm">
-    <form onsubmit="return false;">
-        <label for="formDrinks">Your Drinks Order:</label><br>
-        <input type="text" id="drinksField" name="formDrinks" placeholder="Type here"><br>
-        <input type="submit" onClick="getFormInput()">
-    </form>
-    </div>
-
-    <div class="foodForm">
-        <form onsubmit="return false;">
-            
-        </form>
-</div>
-
 <div class="menu-container">
-    
+
 <div class="Drinks">
     <h2>Drinks:</h2>
     <h3>Coffee & Hot Drinks</h3>
-    <p>Espresso / Long Black - $4.50</p>
-        
-        <p>Flat White / Latte / Cappuccino - $5.50</p>
-        
-        <p>Hot Chocolate - $5.50</p>
-        
-        <p>Tea Selection - $4.50</p>
-        <p>(English Breakfast, Earl Grey, Green)</p>
+    <p>1. Espresso / Long Black - $4.50</p>
+    <p>2. Flat White / Latte / Cappuccino - $5.50</p>
+    <p>3. Hot Chocolate - $5.50</p>
+    <p>4. Tea Selection - $4.50</p>
+    <p>(English Breakfast, Earl Grey, Green)</p>
 </div>
 
 <div class="Food">
     <h2>Food:</h2>
     <h3>Breakfast</h3>
-    <p>Toasted Bagel - $8.50</p>
-
-    <p>Avocado Toast - $16.00</p>
-
-    <p>Eggs on Toast - $13.50</p>
+    <p>5. Toasted Bagel - $8.50</p>
+    <p>6. Avocado Toast - $16.00</p>
+    <p>7. Eggs on Toast - $13.50</p>
 
     <h3>Lunch</h3>
-    <p>Toastie - $12.50</p>
-    
-    <p>Chicken & Bacon Panini - $14.50</p>
-
-    <p>Seasonal Salad - $15.00</p>
+    <p>8. Toastie - $12.50</p>
+    <p>9. Chicken & Bacon Panini - $14.50</p>
+    <p>10. Seasonal Salad - $15.00</p>
 </div>
 
 </div>
-
-
 
 <div class="Extras">
     <h2>Extras:</h2>
     <h3>Desserts</h3>
-    <p>Cinnamon Roll - $6.50</p>
-
-    <p>Muffin - $6.00</p>
-
-    <p>Chocolate Brownie - $5.50</p>
+    <p>11. Cinnamon Roll - $6.50</p>
+    <p>12. Muffin - $6.00</p>
+    <p>13. Chocolate Brownie - $5.50</p>
 </div>
 
-    <div class="Drinkextras">
-        <h3>Drink Extras:</h3>
+<div class="Drinkextras">
+    <h3>Drink Extras:</h3>
+    <p>14. Extra Shot +$1</p>
+    <p>15. Extra Milk +$1</p>
+</div>
 
-        <p>Extra Shot +$1</p>
+<div class="Foodextras">
+    <h3>Food Extras:</h3>
+    <p>16. Extra Egg +$1</p>
+    <p>17. Extra Bacon +$1</p>
+</div>
 
-        <p>Extra Milk +$1</p>
-    </div>
+<!-- Ordering form -->
+<div class="Forms">
+    <h2>Place Your Order</h2>
 
-    <div class="Foodextras">
-        <h3>Food Extras:</h3>
+    <label for="nameField">Your Name:</label><br>
+    <input type="text" id="nameField" placeholder="Type your name"><br>
 
-        <p>Extra Egg +$1</p>
+    <label for="itemField">Item number:</label><br>
+    <input type="number" id="itemField" placeholder="e.g. 1">
+    <button onclick="addToOrder()">Add to order</button>
 
-        <p>Extra Bacon +$1</p>
-    </div>
+    <h3>Your Order:</h3>
+    <div id="orderList"></div>
+    <p id="total">Total: $0.00</p>
 
+    <label for="moneyField">Money you have:</label><br>
+    <input type="number" id="moneyField" placeholder="e.g. 20"><br>
 
-  
+    <button onclick="placeOrder()">Place order</button>
+    <button onclick="resetOrder()">Reset</button>
+
+    <p id="output"></p>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
-
-
