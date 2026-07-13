@@ -28,6 +28,20 @@
   box-sizing: border-box;
 }
 
+.Extras, .Drinkextras, .Foodextras {
+  margin-top: 10px;
+}
+
+.Forms {
+  margin-top: 20px;
+  border-top: 2px solid #333;
+  padding-top: 15px;
+}
+
+#output {
+  font-weight: bold;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 1fr; 
