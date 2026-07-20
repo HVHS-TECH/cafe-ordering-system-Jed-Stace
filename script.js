@@ -1,6 +1,3 @@
-console.log("Hello world!");
-
-// This array stores every menu item and its price.
 // The numbers match the numbers shown next to each item on the page.
 var menu = [
   { name: "Espresso / Long Black", price: 4.50 },
