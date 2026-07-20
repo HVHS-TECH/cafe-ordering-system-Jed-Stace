@@ -30,6 +30,9 @@
 
 .Extras, .Drinkextras, .Foodextras {
   margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .Forms {
