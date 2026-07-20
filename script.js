@@ -87,7 +87,7 @@ function placeOrder() {
     }
 
     document.getElementById("output").innerHTML =
-      "--- RECEIPT ---<br>" +
+      "Your Recept:<br>" +
       "Name: " + name + "<br>" +
       "Item(s): " + itemNames + "<br>" +
       "Total Cost: $" + total.toFixed(2) + "<br>" +
